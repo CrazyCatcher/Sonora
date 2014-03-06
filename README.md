@@ -3,14 +3,10 @@
 
 因为一些库和工具的更新，原项目编译会出现很多问题，这里仅仅是为想学习这份代码的同学行个方便。
 
-**首先你需要:**
+**首先你需要安装:**
 
 - [CocoaPods](https://github.com/CocoaPods/CocoaPods)
-- [mogenerator](https://github.com/rentzsch/mogenerator) --> 最方便的安装方法是使用 [Homebrew](https://github.com/Homebrew/homebrew) :
-
-```
-$ brew install mogenerator
-```
+- [mogenerator](https://github.com/rentzsch/mogenerator)
 
 **然后通过 CocoaPods 安装第三方库:**
 
