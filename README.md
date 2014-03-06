@@ -1,3 +1,37 @@
+## update in this fork:
+---
+
+因为一些库和工具的更新，原项目编译会出现很多问题，这里仅仅是为想学习这份代码的同学行个方便。
+
+**首先你需要:**
+
+- [CocoaPods](https://github.com/CocoaPods/CocoaPods)
+- [mogenerator](https://github.com/rentzsch/mogenerator) --> 最方便的安装方法是使用 [Homebrew](https://github.com/Homebrew/homebrew) :
+
+```
+$ brew install mogenerator
+```
+
+**然后通过 CocoaPods 安装第三方库:**
+
+- 添加 Sonora 的 podspecs 到 CocoaPods。（原 podspecs 因为 CocoaPods 的更新会出现语法错误，这里使用我 Fork 的 podspecs）:
+
+```
+pod repo add Sonora-Podspecs https://github.com/CrazyCatcher/Podspecs.git master
+```
+
+
+- 下载安装所有的 pods:
+
+```
+cd <project directory>
+pod install
+```
+
+Good luck！
+
+---
+
 ## Sonora
 ### A minimal, beautifully designed music player for the Mac
 #### Developed by [Indragie Karunaratne](http://indragie.com)
