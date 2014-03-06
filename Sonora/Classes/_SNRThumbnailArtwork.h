@@ -31,7 +31,9 @@ extern const struct SNRThumbnailArtworkFetchedProperties {
 
 
 
+
 @property (nonatomic, strong) NSData* data;
+
 
 
 //- (BOOL)validateData:(id*)value_ error:(NSError**)error_;
@@ -40,7 +42,7 @@ extern const struct SNRThumbnailArtworkFetchedProperties {
 
 
 
-@property (nonatomic, strong) SNRAlbum* album;
+@property (nonatomic, strong) SNRAlbum *album;
 
 //- (BOOL)validateAlbum:(id*)value_ error:(NSError**)error_;
 

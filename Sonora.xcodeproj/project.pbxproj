@@ -282,8 +282,6 @@
 		03F47EFE15F3F7FC008FD1BE /* eq-reset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F47EFD15F3F7FC008FD1BE /* eq-reset@2x.png */; };
 		03F791F713C2BE19001A522D /* NSShadow-SNRAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F791F613C2BE19001A522D /* NSShadow-SNRAdditions.m */; };
 		03F9AD8B1411AAB7006E2873 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 03F9AD8A1411AAB7006E2873 /* icon.icns */; };
-		03FDF86815E32D8B009A54B8 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FDF85B15E32D4E009A54B8 /* Sparkle.framework */; };
-		03FDF86915E32D94009A54B8 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03FDF85B15E32D4E009A54B8 /* Sparkle.framework */; };
 		86F6993C5FE244739816BDB3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10314D7A429A4257993EE387 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -344,48 +342,6 @@
 			remoteGlobalIDString = 0392857C14CCCBF300D02672;
 			remoteInfo = SNRHUDKit;
 		};
-		03FDF85A15E32D4E009A54B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03FDF84C15E32D4E009A54B8 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = Sparkle;
-		};
-		03FDF85C15E32D4E009A54B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03FDF84C15E32D4E009A54B8 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 61B5F90209C4CEE200B25A18;
-			remoteInfo = "Sparkle Test App";
-		};
-		03FDF85E15E32D4E009A54B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03FDF84C15E32D4E009A54B8 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 612279D90DB5470200AB99EA;
-			remoteInfo = "Sparkle Unit Tests";
-		};
-		03FDF86015E32D4E009A54B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03FDF84C15E32D4E009A54B8 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D06E8D00FD68C7C005AE3F6;
-			remoteInfo = BinaryDelta;
-		};
-		03FDF86215E32D4E009A54B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03FDF84C15E32D4E009A54B8 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55C14BB7136EEF1500649790;
-			remoteInfo = finish_installation;
-		};
-		03FDF86615E32D85009A54B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03FDF84C15E32D4E009A54B8 /* Sparkle.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = Sparkle;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -396,7 +352,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				03042EBD15ED4DD1002C4CA2 /* SFBAudioEngine.framework in CopyFiles */,
-				03FDF86915E32D94009A54B8 /* Sparkle.framework in CopyFiles */,
 				038E796215D83E6F008613DB /* Growl.framework in CopyFiles */,
 				0347F30C14DCC83400E8E5FC /* SNRHUDKit.framework in CopyFiles */,
 			);
@@ -815,7 +770,6 @@
 		03F791F513C2BE19001A522D /* NSShadow-SNRAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSShadow-SNRAdditions.h"; path = "Categories/NSShadow-SNRAdditions.h"; sourceTree = "<group>"; };
 		03F791F613C2BE19001A522D /* NSShadow-SNRAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSShadow-SNRAdditions.m"; path = "Categories/NSShadow-SNRAdditions.m"; sourceTree = "<group>"; };
 		03F9AD8A1411AAB7006E2873 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = Resources/icon.icns; sourceTree = "<group>"; };
-		03FDF84C15E32D4E009A54B8 /* Sparkle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sparkle.xcodeproj; path = External/Sparkle/Sparkle.xcodeproj; sourceTree = "<group>"; };
 		10314D7A429A4257993EE387 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4695956A88A843CEA204DF02 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -826,7 +780,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03042EBC15ED4DC6002C4CA2 /* SFBAudioEngine.framework in Frameworks */,
-				03FDF86815E32D8B009A54B8 /* Sparkle.framework in Frameworks */,
 				038E793015D83950008613DB /* libcrypto.dylib in Frameworks */,
 				038E792E15D8390F008613DB /* Security.framework in Frameworks */,
 				038E792315D837D3008613DB /* IOKit.framework in Frameworks */,
@@ -1222,7 +1175,6 @@
 				0325A31313C2A48D003DE2AE /* Resources */,
 				036417971388CC92003F2A21 /* Frameworks */,
 				036417951388CC92003F2A21 /* Products */,
-				03FDF84C15E32D4E009A54B8 /* Sparkle.xcodeproj */,
 				0347F2FD14DCC82600E8E5FC /* SNRHUDKit.xcodeproj */,
 				4695956A88A843CEA204DF02 /* Pods.xcconfig */,
 				03042EA615ED4DB1002C4CA2 /* SFBAudioEngine.xcodeproj */,
@@ -1732,18 +1684,6 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
-		03FDF84D15E32D4E009A54B8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				03FDF85B15E32D4E009A54B8 /* Sparkle.framework */,
-				03FDF85D15E32D4E009A54B8 /* Sparkle Test App.app */,
-				03FDF85F15E32D4E009A54B8 /* Sparkle Unit Tests.octest */,
-				03FDF86115E32D4E009A54B8 /* BinaryDelta */,
-				03FDF86315E32D4E009A54B8 /* finish_installation.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1762,7 +1702,6 @@
 			);
 			dependencies = (
 				03042EBB15ED4DBF002C4CA2 /* PBXTargetDependency */,
-				03FDF86715E32D85009A54B8 /* PBXTargetDependency */,
 				0347F30B14DCC82B00E8E5FC /* PBXTargetDependency */,
 			);
 			name = Sonora;
@@ -1797,10 +1736,6 @@
 				{
 					ProductGroup = 0347F2FE14DCC82600E8E5FC /* Products */;
 					ProjectRef = 0347F2FD14DCC82600E8E5FC /* SNRHUDKit.xcodeproj */;
-				},
-				{
-					ProductGroup = 03FDF84D15E32D4E009A54B8 /* Products */;
-					ProjectRef = 03FDF84C15E32D4E009A54B8 /* Sparkle.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1852,41 +1787,6 @@
 			fileType = wrapper.application;
 			path = Catalog.app;
 			remoteRef = 0347F30814DCC82600E8E5FC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		03FDF85B15E32D4E009A54B8 /* Sparkle.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Sparkle.framework;
-			remoteRef = 03FDF85A15E32D4E009A54B8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		03FDF85D15E32D4E009A54B8 /* Sparkle Test App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Sparkle Test App.app";
-			remoteRef = 03FDF85C15E32D4E009A54B8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		03FDF85F15E32D4E009A54B8 /* Sparkle Unit Tests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Sparkle Unit Tests.octest";
-			remoteRef = 03FDF85E15E32D4E009A54B8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		03FDF86115E32D4E009A54B8 /* BinaryDelta */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = BinaryDelta;
-			remoteRef = 03FDF86015E32D4E009A54B8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		03FDF86315E32D4E009A54B8 /* finish_installation.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = finish_installation.app;
-			remoteRef = 03FDF86215E32D4E009A54B8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -2210,11 +2110,6 @@
 			isa = PBXTargetDependency;
 			name = SNRHUDKit;
 			targetProxy = 0347F30A14DCC82B00E8E5FC /* PBXContainerItemProxy */;
-		};
-		03FDF86715E32D85009A54B8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Sparkle;
-			targetProxy = 03FDF86615E32D85009A54B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -38,12 +38,13 @@ const struct SNRMixArtworkFetchedProperties SNRMixArtworkFetchedProperties = {
 	return (SNRMixArtworkID*)[super objectID];
 }
 
-+ (NSSet *)keyPathsForValuesAffectingValueForKey:(NSString *)key {
++ (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {
 	NSSet *keyPaths = [super keyPathsForValuesAffectingValueForKey:key];
 	
 	if ([key isEqualToString:@"generatedValue"]) {
 		NSSet *affectingKey = [NSSet setWithObject:@"generated"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+		return keyPaths;
 	}
 
 	return keyPaths;
