@@ -1332,9 +1332,6 @@
 			<object class="NSCustomObject" id="173365359">
 				<string key="NSClassName">SNRQueueCoordinator</string>
 			</object>
-			<object class="NSCustomObject" id="750238424">
-				<string key="NSClassName">SUUpdater</string>
-			</object>
 			<object class="NSCustomView" id="129858093">
 				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
@@ -2473,14 +2470,6 @@
 					</object>
 					<int key="connectionID">1465</int>
 				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">checkForUpdates:</string>
-						<reference key="source" ref="750238424"/>
-						<reference key="destination" ref="107526418"/>
-					</object>
-					<int key="connectionID">1509</int>
-				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -3521,11 +3510,6 @@
 						<reference key="parent" ref="110575045"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">1508</int>
-						<reference key="object" ref="750238424"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">1515</int>
 						<reference key="object" ref="535723097"/>
 						<reference key="parent" ref="110575045"/>
@@ -3704,7 +3688,6 @@
 				<string key="1502.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1503.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1507.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="1508.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1515.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="19.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="195.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
